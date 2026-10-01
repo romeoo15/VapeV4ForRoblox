@@ -1,4 +1,4 @@
-local AntiFling
+local FlingDisable
 local modified = {}
 
 local function LocalAdded(entity)
@@ -49,7 +49,7 @@ local function Modify(part)
 end
 
 AntiFling = vape.Categories.Blatant:CreateModule({
-	Name = 'AntiFling',
+	Name = 'FlingDisable',
 	Function = function(callback)
 		if callback then
 			AntiFling:Clean(workspace.CarContainer.DescendantAdded:Connect(Modify))
@@ -75,5 +75,5 @@ AntiFling = vape.Categories.Blatant:CreateModule({
 			table.clear(modified)
 		end
 	end,
-	Tooltip = 'Prevent certain methods of flinging you'
+	Tooltip = 'Prevent certain methods of flinging you (mostly Vehicle'
 })
