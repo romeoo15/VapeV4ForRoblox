@@ -10,7 +10,7 @@ local function clampVec(vec, max)
 end
 
 AnticheatBypass = vape.Categories.Blatant:CreateModule({
-	Name = 'AnticheatBypass',
+	Name = 'AntiCheatBypass',
 	Function = function(callback)
 		if callback then
 			bypassRoot = Instance.new('Part')
@@ -89,5 +89,5 @@ AnticheatBypass = vape.Categories.Blatant:CreateModule({
 			bypassRoot = nil
 		end
 	end,
-	Tooltip = 'Using various methods to bypass the Anticheat.'
+	Tooltip = 'Uses various methods to bypass AntiCheat.'
 })
