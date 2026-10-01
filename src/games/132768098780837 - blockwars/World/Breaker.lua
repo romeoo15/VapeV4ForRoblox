@@ -74,7 +74,7 @@ local function attemptBreak(tab, localPosition, tool)
 end
 
 Breaker = vape.Categories.World:CreateModule({
-	Name = 'Breaker',
+	Name = 'Nuker',
 	Function = function(callback)
 		if callback then
 			local beds = collection('BedWarsX_BedSpawn', Breaker)
@@ -94,7 +94,7 @@ Breaker = vape.Categories.World:CreateModule({
 			until not Breaker.Enabled
 		end
 	end,
-	Tooltip = 'Break blocks around you automatically'
+	Tooltip = 'Nuke blocks/beds around you automatically'
 })
 Range = Breaker:CreateSlider({
 	Name = 'Break range',
