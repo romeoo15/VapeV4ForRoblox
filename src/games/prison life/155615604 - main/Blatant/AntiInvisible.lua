@@ -82,7 +82,7 @@ for _, v in replicatedStorage:QueryDescendants('Animation') do
 end
 
 AntiInvisible = vape.Categories.Blatant:CreateModule({
-	Name = 'AntiInvisible',
+	Name = 'DisableInvisible',
 	Function = function(callback)
 		if callback then
 			AntiInvisible:Clean(entitylib.Events.EntityAdded:Connect(EntityAdded))
