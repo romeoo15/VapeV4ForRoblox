@@ -2,7 +2,7 @@ local NoSlowdown
 local Toggles = {}
 
 NoSlowdown = vape.Categories.Blatant:CreateModule({
-	Name = 'NoSlowdown',
+	Name = 'NoSlow',
 	Function = function(callback)
 		debug.setconstant(jb.WalkSpeedFun, 5, callback and Toggles.Damage.Enabled and 'MaxHealth' or 'Health')
 		debug.setconstant(jb.WalkSpeedFun, 13, callback and Toggles.SWAT.Enabled and '_ShieldSWAT' or 'ShieldSWAT')
