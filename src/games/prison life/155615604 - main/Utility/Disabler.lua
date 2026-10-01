@@ -25,7 +25,7 @@ Disabler = vape.Categories.Utility:CreateModule({
 			end
 		end
 	end,
-	Tooltip = 'Fixes phase with Character mode.',
+	Tooltip = 'Disables GetPropertyChangedSignal',
 	ExtraText = function()
 		return 'Phase'
 	end
