@@ -11,7 +11,7 @@ local function EntityAdded(entity)
 end
 
 Disabler = vape.Categories.Utility:CreateModule({
-	Name = 'Disabler',
+	Name = 'PhaseFixer',
 	Function = function(callback)
 		if callback then
 			Disabler:Clean(entitylib.Events.LocalAdded:Connect(EntityAdded))
