@@ -9,7 +9,7 @@ local function localAdded(char)
 end
 
 HideShield = vape.Legit:CreateModule({
-	Name = 'HideShield',
+	Name = 'ShieldHider',
 	Function = function(callback)
 		if callback then
 			HideShield:Clean(entitylib.Events.LocalAdded:Connect(localAdded))
@@ -28,5 +28,5 @@ HideShield = vape.Legit:CreateModule({
 			table.clear(parts)
 		end
 	end,
-	Tooltip = 'Hide the shield entirely.'
+	Tooltip = 'Hides the shield entirely.'
 })
