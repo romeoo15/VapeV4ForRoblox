@@ -55,7 +55,7 @@ AutoToxic = vape.Categories.Utility:CreateModule({
 			end))
 		end
 	end,
-	Tooltip = 'Says a message after a certain action'
+	Tooltip = 'Automatically says a message after a certain action'
 })
 GG = AutoToxic:CreateToggle({
 	Name = 'AutoGG',
